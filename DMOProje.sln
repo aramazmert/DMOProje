@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wcf-19Aralik2017DMOLibrary", "wcf-19Aralik2017DMOLibrary\wcf-19Aralik2017DMOLibrary.csproj", "{E75B78E1-2CA6-4162-9C72-CB965660CBD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DMOHosting", "DMOHosting\DMOHosting.csproj", "{6B9024F5-704E-40DF-9DAB-4051FF4F8238}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DMOEntities", "DMOEntities\DMOEntities.csproj", "{D2F67B12-897E-4C68-8D2D-57DD10A5E7BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebClient", "WebClient\WebClient.csproj", "{AB277422-55F8-41FC-B8C1-B6762FEEF899}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6B9024F5-704E-40DF-9DAB-4051FF4F8238} = {6B9024F5-704E-40DF-9DAB-4051FF4F8238}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinClient", "WinClient\WinClient.csproj", "{5AEAC77F-73BD-4FAB-9A63-A993E2181C2F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6B9024F5-704E-40DF-9DAB-4051FF4F8238} = {6B9024F5-704E-40DF-9DAB-4051FF4F8238}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E75B78E1-2CA6-4162-9C72-CB965660CBD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E75B78E1-2CA6-4162-9C72-CB965660CBD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E75B78E1-2CA6-4162-9C72-CB965660CBD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E75B78E1-2CA6-4162-9C72-CB965660CBD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B9024F5-704E-40DF-9DAB-4051FF4F8238}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B9024F5-704E-40DF-9DAB-4051FF4F8238}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B9024F5-704E-40DF-9DAB-4051FF4F8238}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B9024F5-704E-40DF-9DAB-4051FF4F8238}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2F67B12-897E-4C68-8D2D-57DD10A5E7BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2F67B12-897E-4C68-8D2D-57DD10A5E7BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2F67B12-897E-4C68-8D2D-57DD10A5E7BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2F67B12-897E-4C68-8D2D-57DD10A5E7BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB277422-55F8-41FC-B8C1-B6762FEEF899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB277422-55F8-41FC-B8C1-B6762FEEF899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB277422-55F8-41FC-B8C1-B6762FEEF899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB277422-55F8-41FC-B8C1-B6762FEEF899}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AEAC77F-73BD-4FAB-9A63-A993E2181C2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AEAC77F-73BD-4FAB-9A63-A993E2181C2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AEAC77F-73BD-4FAB-9A63-A993E2181C2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AEAC77F-73BD-4FAB-9A63-A993E2181C2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

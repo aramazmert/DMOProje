@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Service="wcf_19Aralik2017DMOLibrary.DMOService" %>

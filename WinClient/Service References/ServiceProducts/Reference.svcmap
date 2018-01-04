@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c1fba6e8-67aa-4d52-89ff-50775ab98bc1" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:9402/ServiceDMO.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServiceDMO.disco" MetadataType="Disco" ID="b44554ae-3305-48ed-9ed0-6dbcf757a06a" SourceId="1" SourceUrl="http://localhost:9402/ServiceDMO.svc?disco" />
+    <MetadataFile FileName="ServiceDMO.xsd" MetadataType="Schema" ID="418358a6-dd42-40ec-8f4c-819fe0c9a591" SourceId="1" SourceUrl="http://localhost:9402/ServiceDMO.svc?xsd=xsd0" />
+    <MetadataFile FileName="DMOService.wsdl" MetadataType="Wsdl" ID="651b0fff-f6ca-459f-8cba-3fb1ffbe94f2" SourceId="1" SourceUrl="http://localhost:9402/ServiceDMO.svc?wsdl" />
+    <MetadataFile FileName="ServiceDMO1.xsd" MetadataType="Schema" ID="b7b1e07f-59a1-4ba8-a3fc-7bef5e191848" SourceId="1" SourceUrl="http://localhost:9402/ServiceDMO.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServiceDMO2.xsd" MetadataType="Schema" ID="1a454131-600f-4f51-bd7d-7cea0b4de20c" SourceId="1" SourceUrl="http://localhost:9402/ServiceDMO.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

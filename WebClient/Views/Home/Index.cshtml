@@ -1,0 +1,44 @@
+﻿@using WebClient.Models.Views;
+@model ProductModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <td>Ürün ID</td>
+                <td>Ürün Ad</td>
+                <td>Ürün Fiyat</td>
+                <td>Detay</td>
+                <td>Güncelle</td>
+                <td>Sil</td>
+                <td>Giriş Yap</td>
+            </tr>
+        </thead>
+        <tbody>
+                @foreach (var item in Model.plist)
+                {
+                    <tr>
+                        <td>@item.ProductID</td>
+                        <td>@item.ProductName</td>
+                        <td>@item.UnitPrice</td>
+                        <td><a href="/Home/Detay/@item.ProductID">Detay</a></td>
+                        <td><a href="/Home/Guncelle/@item.ProductID">Güncelle</a></td>
+                        <td><a href="/Home/Sil/@item.ProductID">Sil</a></td>
+                        <td><a href="/Login/Login">Giriş Yap</a></td>
+                    </tr>
+                    
+                }
+        </tbody>
+    </table>
+</body>
+</html>
